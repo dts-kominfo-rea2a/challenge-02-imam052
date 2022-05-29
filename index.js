@@ -83,9 +83,9 @@ function main(data) {
   const hasil = lakukanLooping(data || arrayObjectPegawai);
 
   console.log(hasil.hasilLooping);
-  console.log(hasil.jumlahPria);
-  console.log(hasil.jumlahWanita);
-  console.log(hasil.komentar);
+  console.log("Jumlah Pegawai Pria = "+ hasil.jumlahPria);
+  console.log("Jumlah Pegawai Wanita = "+ hasil.jumlahWanita);
+  console.log("Info : " + hasil.komentar);
   return hasil;
 }
 
